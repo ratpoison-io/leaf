@@ -31,7 +31,7 @@ num = "0.4"
 
 [features]
 default = ["native", "cuda"]
-native = ["coaster/native", "rand"]
+native = ["coaster/native", "rand", "rand_chacha"]
 cuda = ["coaster/cuda", "rcudnn", "libc", "log", "thiserror", "rand_chacha"]
 opencl = ["coaster/opencl"]
 unstable = []
